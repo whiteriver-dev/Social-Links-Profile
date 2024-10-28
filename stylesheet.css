@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: 'Inter';
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container {
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 384px;
+    min-width: 327px;
+    height: auto;
+    min-height: 579px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 12px;
+    gap: 24px;
+    padding: 40px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 88px;
+    width: 88px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+h1 { 
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.location {
+    margin: 0;
+    color: #C4F82A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 16px;
+}
+
+a {
+    all: unset;
+    background-color: #333333;
+    color:white;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    background-color:#C4F82A;
+    color: black;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+@media (max-width: 376px) {
+    .main-container {
+        padding: 24px;
+    }
+
+    .button-container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
