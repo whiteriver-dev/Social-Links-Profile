@@ -24,7 +24,7 @@ html, body {
     box-sizing: border-box;
     width: 384px;
     min-width: 327px;
-    height: 611px;
+    height: auto;
     min-height: 579px;
     margin-left: 24px;
     margin-right: 24px;
